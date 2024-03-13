@@ -1,0 +1,6 @@
+field_names = ["PROCESSED FILES", "CHARS", "WORDS", "LINES", "MOST FREQUENT CHAR", "MOST FREQUENT WORD"]
+    values = [num_of_processed_files, num_of_chars, num_of_words, num_of_lines, most_frequent_char, most_frequent_word]
+
+    csv_writer = csv.writer(sys.stdout)
+    csv_writer.writerow(field_names)
+    csv_writer.writerow(values)

@@ -1,0 +1,10 @@
+MySQL server execution ---> /usr/local/mysql/bin/mysql -u root -p
+Viewing all databases ---> show databases;
+Selecting a database ---> use database_name;
+Viewing all tables in a database ---> show tables;
+Viewing table structure ---> describe table_name;
+Viewing table data ---> select * from table_name;
+Deleting a database ---> drop database database_name;
+Deleting a table ---> drop table table_name;
+
+
